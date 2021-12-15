@@ -1,0 +1,16 @@
+<launch>
+
+     <node pkg="chccgi610" type="chccgi610" name="chccgi610" output="screen" >
+    <param name="port_name" type="string" value="/dev/ttyUSB0" />
+    </node>
+
+    <node pkg="chccgi610" type="fangcha" name="fangcha" output="screen" />
+     <node pkg="chccgi610" type="chccgi" name="chccgi" output="screen" />
+     
+    <arg name="rviz" default="true" />
+    <group if="$(arg rviz)">
+        <node launch-prefix="nice" pkg="rviz" type="rviz" name="rviz" args="-d $(find chccgi610)/include/trajectory.rviz" />
+    </group>
+    
+
+</launch>

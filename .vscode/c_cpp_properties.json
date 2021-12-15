@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/lengjm/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/lengjm/catkin_ws/src/chccgi610/include/**",
+        "/home/lengjm/catkin_ws/src/sync_gps_lidar_imu_cam/gps_driver/include/**",
+        "/home/lengjm/catkin_ws/src/iscloam/include/**",
+        "/home/lengjm/catkin_ws/src/LeGO-LOAM/LeGO-LOAM/include/**",
+        "/home/lengjm/catkin_ws/src/localization/include/**",
+        "/home/lengjm/catkin_ws/src/localization_dyf/include/**",
+        "/home/lengjm/catkin_ws/src/sync_gps_lidar_imu_cam/pointgrey_camera_driver/pointgrey_camera_driver/include/**",
+        "/home/lengjm/catkin_ws/src/sync_gps_lidar_imu_cam/velodyne-master/velodyne_driver/include/**",
+        "/home/lengjm/catkin_ws/src/sync_gps_lidar_imu_cam/velodyne-master/velodyne_laserscan/include/**",
+        "/home/lengjm/catkin_ws/src/sync_gps_lidar_imu_cam/velodyne-master/velodyne_pcl/include/**",
+        "/home/lengjm/catkin_ws/src/sync_gps_lidar_imu_cam/velodyne-master/velodyne_pointcloud/include/**",
+        "/home/lengjm/catkin_ws/src/visual/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}
